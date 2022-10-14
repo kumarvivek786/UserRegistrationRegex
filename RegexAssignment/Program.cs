@@ -13,9 +13,9 @@ namespace RegexAssignment
             Console.WriteLine("Welcome to User Registration Program");
 
             Patterns patterns = new Patterns();
-            Console.WriteLine("Enter the PhoneNumber");
-            string PhoneNumber = Console.ReadLine();
-            patterns.Validation(PhoneNumber);
+            Console.WriteLine("Enter the Password");
+            string password1 = Console.ReadLine();
+            patterns.Validation(password1);
             Console.ReadLine();
         }
     }
