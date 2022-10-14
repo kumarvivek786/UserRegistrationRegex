@@ -10,12 +10,12 @@ namespace RegexAssignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to User Registratuiuon Program");
+            Console.WriteLine("Welcome to User Registration Program");
 
             Patterns patterns = new Patterns();
-            Console.WriteLine("Enter the Last name");
-            string lastname = Console.ReadLine();
-            patterns.Validation(lastname);
+            Console.WriteLine("Enter the PhoneNumber");
+            string PhoneNumber = Console.ReadLine();
+            patterns.Validation(PhoneNumber);
             Console.ReadLine();
         }
     }

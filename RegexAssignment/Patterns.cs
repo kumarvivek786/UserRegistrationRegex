@@ -9,13 +9,13 @@ namespace RegexAssignment
 {
     public class Patterns
     {
-        public static string lastname = "^[A-Z][a-z]{2,}";
+        public static string phonenumber ="^91[ ]?[0-9]{10}$";
         public void Validation(string sample)
         {
-            if (Regex.IsMatch(sample, lastname))
-                Console.WriteLine("Valid lastname");
+            if (Regex.IsMatch(sample, phonenumber))
+                Console.WriteLine("Valid phonenumber");
             else
-                Console.WriteLine("Invalid lastname");
+                Console.WriteLine("Invalid phonenumber");
         }
     }
 }
