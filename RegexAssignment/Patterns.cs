@@ -9,7 +9,7 @@ namespace RegexAssignment
 {
     public class Patterns
     {
-        public static string password1 = @"^(.*[A-Z])[A-Za-z0-9]{8,}";
+        public static string password1 = "(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8}";
 
         public void Validation(string sample)
         {
